@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--Author: Will Carrasco -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Intelligence Tester</title>
+    <link rel="stylessheet" href="style.css" />
+    <script type="text/javascript" src="intelligenceproject.js"></script>
+  </head>
+  <body id="section3">
+    <nav>
+      <div class="example">
+        <h1>Your final challenge</h1>
+      </div>
+    </nav>
+    <h2>Some examples below</h2>
+   <ul class="list">
+     <li>9,3 = 729627</li>
+     <li>11,5 = 161051655</li>
+     <li>13,6 = 4826809778</li>
+     <li>16,4 = 655361264</li>
+     <li>17,2 = 2891534</li>
+  </ul>
+  <!--The following code is by w3schools (w3schools.com) with adjustments made by
+  me -->
+  <div class="row myinput-row">
+     <div class="form-group" id="atempt3Group">
+       <label for="atempt3" class="col-sm-2 control-label">18,7 =</label>
+       <div class="col-sm-2">
+         <input type="text" id="atempt3" class="form-control input-md"
+             placeholder="atempt" />
+         <span id="atempt3Error" class="control-label hidden-message">
+         </span>
+       </div>
+     </div>
+   </div>
+   <div class="form-group">
+     <div class="col-sm-offset-2 col-sm-10">
+       <button type="button" class="btn btn-primary col-sm-1"
+         onclick="testAtempt3(); storeAtempt();">
+         Validate 3
+       </button>
+     </div>
+   </div>
+
+   <div class="next">
+     <div class="col-sm-offset-2 col-sm-2">
+       <button id="previoussectionbutton" type="button" class="btn btn-primary" onclick="prevSection2();">Previous
+       </button>
+     </div>
+   </div>
+   <div class="next">
+     <div class="col-sm-offset-2 col-sm-2">
+       <button id="moveonbutton" type="button" class="btn btn-primary" onclick="finalSection();">Move On
+       </button>
+     </div>
+   </div>
+  </body>
+ </html>

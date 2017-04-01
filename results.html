@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--Author: Will Carrasco -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Intelligence Tester</title>
+    <link rel="stylessheet" href="style.css" />
+    <script type="text/javascript" src="intelligenceproject.js"></script>
+  </head>
+  <body id="lastSection" onload="storeAtempt()">
+  <h1>Final results</h1>
+  <h2>The test is now over, congratulations!</h2>
+  <p id="result"></p>
+  <script>
+  document.getElementById("results").innerHTML="Your score was "numCorrect+" out of 3 questions.";
+  </script>
+  <!--The following code is by w3schools (w3schools.com) with adjustments made by
+  me -->
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-2">
+          <button id="moveonbutton" type="button" class="btn btn-primary" onclick="prevSection3()";>Previous
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-2">
+          <button id="moveonbutton" type="button" class="btn btn-primary" onclick="closeWindow()";>Exit
+          </button>
+        </div>
+      </div>
+    </body>
+  </html>
